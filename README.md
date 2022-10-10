@@ -8,7 +8,7 @@ Copy the .env.example and paste in the .env
 
 Go on the terminal project and go to the folder " database " with the command : cd database
 
-Then make the command : filename.sql < filename.sqlite
+Then make the command : sqlite3 filename.sql < filename.sqlite
 
 Change in your .env : DB_CONNECTION = sqlite 
 
